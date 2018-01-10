@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cool.sarthak.stopwatch.MainActivity">
+
+    <item
+        android:id="@+id/bck1"
+        android:title="Theme 1"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/bck2"
+        android:title="Theme 2"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/bck3"
+        android:title="Theme 3"
+        android:orderInCategory="3"
+        />
+    <item
+        android:id="@+id/bck4"
+        android:title="Theme 4"
+        android:orderInCategory="4"
+        />
+    <item
+        android:id="@+id/bck5"
+        android:title=" Default"
+        android:orderInCategory="5"
+        />
+
+
+
+</menu>

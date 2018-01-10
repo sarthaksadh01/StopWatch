@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cool.sarthak.stopwatch.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/relative"
+
+    >
+
+    <ImageView
+        android:id="@+id/start"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="30dp"
+        android:onClick="start"
+        android:src="@drawable/start" />
+
+    <ImageView
+        android:id="@+id/reset"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+
+        android:layout_alignStart="@+id/starttime"
+        android:layout_below="@+id/starttime"
+        android:layout_marginTop="23dp"
+        android:onClick="reset"
+        android:src="@drawable/reset" />
+
+
+    <TextView
+        android:id="@+id/time"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:text="TIME"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/starttime"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/start"
+        android:layout_below="@+id/start"
+        android:gravity="center"
+        android:text="START"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/reset"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="RESET"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+
+
+
+</RelativeLayout>
